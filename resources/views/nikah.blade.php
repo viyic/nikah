@@ -201,7 +201,7 @@
         coverTop.style.transform = "translateY(-100vh)";
         coverBottom.style.transform = "translateY(100vh)";
         setTimeout(() => {
-            cover.style.display = "hidden";
+            cover.style.display = "none";
         }, 2000);
     }
 </script>
