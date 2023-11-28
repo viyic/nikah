@@ -13,14 +13,16 @@
     <div class="top-0 h-screen w-full z-50 fixed">
         <div id="coverBottom" class="absolute bottom-0 w-full bg-[#F9EDED] h-1/4 transition duration-[2000ms]" style="transform-origin: bottom center;"></div>
         <div id="coverTop" class="h-full transition duration-[2000ms]" style="transform-origin: top center;">
-            <div class="flex justify-center h-3/4 gap-12 bg-[#F9EDED]">
-                <div class="flex flex-col items-center">
-                    <div class="bg-[#1C1C1B] w-8 h-1/5"></div>
-                    <div class="font-['JetBrainsMono'] font-bold text-8xl text-justify rounded-full bg-[#1C1C1B] text-white px-8 py-16 h-fit spacing leading-[1.5]">23<br>10<br>
-                        <div class="text-5xl">2023</div>
+            <div class="flex justify-center h-3/4 gap-6 xs:gap-12 bg-[#F9EDED]">
+                <div class="flex flex-col items-center relative">
+                    <div class="absolute h-1/2 bg-[#1C1C1B] w-6 sm:w-8"></div>
+                    <div class="flex-grow"></div>
+                    <div class="font-['JetBrainsMono'] font-bold text-4xl xs:text-6xl sm:text-8xl text-justify rounded-full bg-[#1C1C1B] text-white px-6 py-12 xs:px-8 xs:py-16 h-fit !leading-[1.5] z-10">23<br>10<br>
+                        <div class="text-xl xs:text-3xl sm:text-5xl">2023</div>
                     </div>
+                    <div class="flex-grow"></div>
                 </div>
-                <div class="font-['Sacramento'] text-8xl rounded-full border-4 aspect-square border-black flex justify-center items-center w-64 h-64 my-auto" style="text-shadow: 3px 3px 0 #F9EDED, -3px 3px 0 #F9EDED, -3px -3px 0 #F9EDED, 3px -3px 0 #F9EDED;">
+                <div class="font-['Sacramento'] text-6xl sm:text-8xl rounded-full border-4 aspect-square border-black flex justify-center items-center w-38 h-38 sm:w-64 sm:h-64 my-auto" style="text-shadow: 3px 3px 0 #F9EDED, -3px 3px 0 #F9EDED, -3px -3px 0 #F9EDED, 3px -3px 0 #F9EDED;">
                     <div class="mb-16">R</div>
                     <div>&</div>
                     <div class="mt-16">A</div>
@@ -29,7 +31,7 @@
             <div class="bg-[#6B1716] w-full h-12 relative">
                 <hr class="border-[#F9EDED] border-2 absolute bottom-4 w-full">
                 <button type="button" class="font-['Sacramento'] bg-[#6B1716] absolute left-1/2 -translate-x-1/2 -translate-y-1/3 rounded-full aspect-square text-white text-4xl p-8 mx-auto border-4 border-[#F9EDED]" onclick="openCover()">Open</button>
-                <svg xmlns="http://www.w3.org/2000/svg" class="w-52 mx-auto pt-8" viewBox="0 0 116 88" fill="none">
+                <svg xmlns="http://www.w3.org/2000/svg" class="w-48 sm:w-52 mx-auto pt-8" viewBox="0 0 116 88" fill="none">
                     <mask id="mask0_9_48" style="mask-type:alpha" maskUnits="userSpaceOnUse" x="0" y="0" width="53" height="88">
                         <path d="M31.8416 0.968018L52.2381 9.20875L20.4109 87.9838L17.327 66.2549L0.0143836 79.743L31.8416 0.968018Z" fill="#D9D9D9" />
                     </mask>
@@ -50,11 +52,11 @@
     </div>
 
     <!-- Content -->
-    <div class="min-h-screen font-['Ruluko'] md:w-[46rem] md:mx-auto overflow-x-clip">
+    <div class="min-h-screen font-['Ruluko'] max-w-3xl md:mx-auto overflow-x-clip">
         <div class="ml-auto md:mx-auto rounded-b-full w-[90%] md:w-96 aspect-[21/33] border-8 border-t-0 border-[#1C1C1B] p-4 pt-0 relative" style="transform: translateX(calc(1rem + 8px));">
             <div class="rounded-b-full w-full h-full saturate-0" style="background-image: url('img/pengantin/utama.jpg'); background-size: cover;">
             </div>
-            <div class="font-['JetBrainsMono'] text-4xl xs:text-5xl md:text-4xl absolute -left-2 top-1/3 -rotate-90 -translate-x-1/2 bg-[#F9EDED] p-3">Save the Date</div>
+            <div class="font-['JetBrainsMono'] text-3xl sm:text-5xl md:text-4xl absolute -left-2 top-1/3 -rotate-90 -translate-x-1/2 bg-[#F9EDED] p-3">Save the Date</div>
         </div>
 
         <div class="mx-8 md:mx-4">
@@ -65,9 +67,9 @@
 
             <img src="img/tampilan/bismillah.png" class="w-2/6 mx-auto mt-16">
 
-            <p class="text-center w-96 mx-auto">Sesungguhnya hati ini telah terhimpun dalam cinta dan bertemu dalam taat kepada Mu. Eratkanlah ikatannya, kekalkanlah kasih sayangnya, berkahilah jalannya dan penuhilah hati ini dengan cahaya Mu yang tak pernah pudar Rasa haru dan bahagia terukir dihati kami atas limpahan Rahmat Allah SWT dan kami bersimpuh memohon Ridho Nya untuk melangsungkan
+            <p class="text-center max-w-lg mx-auto">Sesungguhnya hati ini telah terhimpun dalam cinta dan bertemu dalam taat kepada Mu. Eratkanlah ikatannya, kekalkanlah kasih sayangnya, berkahilah jalannya dan penuhilah hati ini dengan cahaya Mu yang tak pernah pudar Rasa haru dan bahagia terukir dihati kami atas limpahan Rahmat Allah SWT dan kami bersimpuh memohon Ridho Nya untuk melangsungkan
                 resepsi pernikahan putra - putri kami</p>
-            <div class="bg-[#1C1C1B] rounded-full flex flex-col text-[#FDF7F7] p-6 w-4/5 md:w-96 mx-auto mt-16 relative">
+            <div class="bg-[#1C1C1B] rounded-full flex flex-col text-[#FDF7F7] p-6 max-w-sm mx-auto mt-16 relative">
                 <img src="img/pengantin/pria.png" class="overflow-hidden rounded-t-full">
                 <p class="font-['Sacramento'] text-4xl text-center mt-8">Rudi Halimawan</p>
                 <p class="text-center mt-4">Putra dari:<br>Bpk Handoko Pratama<br>Ibu Siti Aisyah</p>
@@ -84,10 +86,17 @@
             </div>
 
             <p class="font-['Sacramento'] text-4xl text-center mt-16">Akad Nikah</p>
-            <div class="flex text-4xl gap-4 justify-between mt-8 relative">
+            <div class="flex text-lg xs:text-2xl sm:text-4xl gap-4 justify-between mt-8 relative">
                 <p>Ahad,<br>Oktober</p>
-                <p class="font-['JetBrainsMono'] font-bold text-8xl border-x-2 border-black px-2 absolute left-1/2 -translate-x-1/2">22</p>
+                <p class="font-['JetBrainsMono'] font-bold text-6xl sm:text-8xl border-x-2 border-black px-2 absolute left-1/2 -translate-x-1/2">22</p>
                 <p class="text-right">Pukul<br>10.00 WIB</p>
+            </div>
+
+            <p class="font-['Sacramento'] text-4xl text-center mt-16">Resepsi</p>
+            <div class="flex text-lg xs:text-2xl sm:text-4xl gap-4 justify-between mt-8 relative">
+                <p>Senin,<br>Oktober</p>
+                <p class="font-['JetBrainsMono'] font-bold text-6xl sm:text-8xl border-x-2 border-black px-2 absolute left-1/2 -translate-x-1/2">23</p>
+                <p class="text-right">Pukul<br>Rilex</p>
             </div>
 
             <div class="mt-16 flex justify-center">
@@ -116,7 +125,7 @@
             </div>
 
             <p class="font-['Sacramento'] text-4xl text-center mt-16">Beri Hadiah Ke Mempelai</p>
-            <p class="text-center mt-4 w-96 mx-auto">Doa restu Keluarga, sahabat, dan rekan - rekan semua sudah sangat cukup sebagai hadiah, tetapi jika memberi merupakan tanda kasih, kami dengan senang hati menerimanya.</p>
+            <p class="text-center mt-4 max-w-lg mx-auto">Doa restu Keluarga, sahabat, dan rekan - rekan semua sudah sangat cukup sebagai hadiah, tetapi jika memberi merupakan tanda kasih, kami dengan senang hati menerimanya.</p>
 
             <div class="grid grid-cols-1 md:grid-cols-2 gap-2 md:gap-4">
                 <div class="bg-white py-4 px-3 rounded-3xl mt-4">
@@ -143,13 +152,13 @@
         <div class="bg-[#1C1C1B] text-[#FDF7F7] pt-12 pb-24 mt-16">
             <div class="w-5/6 mx-auto">
                 <p class="font-['Sacramento'] text-4xl text-center">Kirimkan Ucapan</p>
-                <div class="flex flex-col gap-4 mt-6">
-                    <label for="namaUcapan" class="text-lg">Nama</label>
-                    <input type="text" name="namaUcapan" id="namaUcapan" class="text-black px-3 py-4 rounded-xl text-xl">
-                    <label for="teksUcapan" class="text-lg">Ucapan atau Do'a</label>
-                    <textarea name="teksUcapan" id="teksUcapan" rows="4" class="text-black px-3 py-4 rounded-xl text-xl"></textarea>
-                    <label for="kehadiranUcapan" class="text-lg">Kehadiran</label>
-                    <select name="kehadiranUcapan" id="kehadiranUcapan" class="text-black px-3 py-4 rounded-xl text-xl">
+                <div class="flex flex-col gap-4 mt-6 text-lg">
+                    <label for="namaUcapan">Nama</label>
+                    <input type="text" name="namaUcapan" id="namaUcapan" class="text-black px-3 py-4 rounded-xl">
+                    <label for="teksUcapan">Ucapan atau Do'a</label>
+                    <textarea name="teksUcapan" id="teksUcapan" rows="4" class="text-black px-3 py-4 rounded-xl"></textarea>
+                    <label for="kehadiranUcapan">Kehadiran</label>
+                    <select name="kehadiranUcapan" id="kehadiranUcapan" class="text-black px-3 py-4 rounded-xl">
                         <option value="1" selected="selected">Hadir</option>
                         <option value="0">Tidak Hadir</option>
                     </select>
@@ -173,7 +182,7 @@
                 ];
                 @endphp
                 @foreach ($comments as $comment)
-                <div class="text-xl mt-12">
+                <div class="text-lg mt-12">
                     <p>{{$comment["sender"]}} <span class="text-white bg-[#6B1716] text-xs px-2 py-1 rounded-full">{{$comment["attendance"] ? "Hadir" : "Tidak Hadir"}}</span></p>
                     <p>{{$comment["text"]}}</p>
                 </div>

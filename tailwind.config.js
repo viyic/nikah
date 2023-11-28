@@ -4,7 +4,8 @@ export default {
     content: ["./resources/views/**/*.blade.php"],
     theme: {
         screens: {
-            'xs': '475px',
+            'xs': '375px',
+            // 'xs': '475px',
             ...defaultTheme.screens,
         },
     },
