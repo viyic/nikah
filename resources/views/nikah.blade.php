@@ -10,7 +10,7 @@
 
 <body class="bg-[#F9EDED]">
     <!-- Cover -->
-    <div class="top-0 h-screen w-full z-50 fixed">
+    <div id="cover" class="top-0 h-screen w-full z-50 fixed">
         <div id="coverBottom" class="absolute bottom-0 w-full bg-[#F9EDED] h-1/4 transition duration-[2000ms]" style="transform-origin: bottom center;"></div>
         <div id="coverTop" class="h-full transition duration-[2000ms]" style="transform-origin: top center;">
             <div class="flex justify-center h-3/4 gap-6 xs:gap-12 bg-[#F9EDED]">
@@ -193,12 +193,16 @@
 </body>
 
 <script>
+    const cover = document.getElementById('cover');
     const coverTop = document.getElementById('coverTop');
     const coverBottom = document.getElementById('coverBottom');
 
     function openCover() {
         coverTop.style.transform = "translateY(-100vh)";
         coverBottom.style.transform = "translateY(100vh)";
+        setTimeout(() => {
+            cover.style.display = "hidden";
+        }, 2000);
     }
 </script>
 
