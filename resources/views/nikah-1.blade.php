@@ -10,14 +10,14 @@
 
 <body class="bg-[#FFE9CA]">
     <div id="cover" class="top-0 h-screen w-full z-50 fixed transition duration-[2000ms]">
-        <img class="absolute w-64 md:w-96 top-0 right-0 rotate-[155deg]" src="img/tampilan/1/bunga-0.png" />
-        <img class="absolute w-64 md:w-96 bottom-0 left-0 -rotate-[25deg]" src="img/tampilan/1/bunga-0.png" />
+        <img class="absolute w-64 md:w-96 -top-14 sm:top-0 -right-14 sm:right-0 rotate-[155deg]" src="img/tampilan/1/bunga-0.png" />
+        <img class="absolute w-64 md:w-96 -bottom-14 sm:bottom-0 -left-14 sm:left-0 -rotate-[25deg]" src="img/tampilan/1/bunga-0.png" />
 
         <div class="flex flex-col items-center justify-center gap-8 w-full h-full bg-[#FFE9CA]" style="background-image: url('img/pengantin/1/cover.png'); background-repeat: no-repeat; background-position: center">
             <div class="font-[LibreBodoni] text-4xl">THE WEDDING</div>
-            <div class="font-[MonteCarlo] text-6xl flex justify-center items-center gap-4">
+            <div class="font-[MonteCarlo] text-4xl sm:text-6xl flex justify-center items-center gap-4">
                 <div class="mb-16">Dimas</div>
-                <div class="rounded-full flex justify-center items-center w-16 h-16 bg-white font-[MySoul]"><span class="-rotate-[20deg] -translate-x-1/4">&</span></div>
+                <div class="rounded-full flex justify-center items-center w-12 sm:w-16 h-12 sm:h-16 bg-white font-[MySoul]"><span class="-rotate-[20deg] -translate-x-1/4">&</span></div>
                 <div class="mt-16">Cahya</div>
             </div>
             <img class="cincin" src="img/tampilan/1/cincin.png" />
@@ -38,7 +38,7 @@
             <div class="relative overflow-x-clip">
                 <img class="object-cover w-[150%] -translate-x-[25%] max-w-none" src="img/pengantin/1/utama.png" />
                 <img class="absolute -bottom-24 w-60 -left-4" src="img/tampilan/1/bunga-0.png" />
-                <img class="absolute -bottom-12 w-full" src="img/tampilan/1/pita.png" />
+                <img class="absolute -bottom-7 sm:-bottom-12 w-full" src="img/tampilan/1/pita.png" />
                 <div class="flex gap-8 justify-around absolute bottom-0 w-full text-white text-xl sm:text-4xl">
                     <span>Dimas</span>
                     <span>Cahya</span>
@@ -80,7 +80,7 @@
                 <img class="z-20 absolute right-0 -bottom-12 w-3/5 -rotate-90" src="img/tampilan/1/bunga-1.png" />
             </div>
 
-            <div class="font-[MySoul] text-[#CB5E2E] text-4xl md:text-6xl mt-16">Dimas Drajad Santoso</div>
+            <div class="font-[MySoul] text-[#CB5E2E] text-4xl md:text-6xl mt-16 text-center">Dimas Drajad Santoso</div>
             <div class="md:text-2xl">Putra Bpk. Eko Santoso &amp; Putra Ibu. Siti Rofi'ah</div>
             <div class="relative">
                 <img class="absolute w-2/3 left-1/2 top-1/2 -translate-x-1/2 -translate-y-1/2" src="img/pengantin/1/pria.png" />
@@ -118,21 +118,21 @@
             </div>
 
             <div class="flex gap-4 text-white text-2xl mt-16">
-                <div class="bg-[#D97E31] px-5 py-1 rounded-lg text-center w-24">
-                    <div class="text-4xl md:text-6xl">12</div>
-                    <div class="">Hari</div>
+                <div class="bg-[#D97E31] px-5 py-1 rounded-lg text-center w-16 sm:w-24">
+                    <div class="text-xl sm:text-4xl md:text-6xl">12</div>
+                    <div class="text-sm sm:text-xl">Hari</div>
                 </div>
-                <div class="bg-[#D97E31] px-5 py-1 rounded-lg text-center w-24">
-                    <div class="text-4xl md:text-6xl">4</div>
-                    <div class="">Jam</div>
+                <div class="bg-[#D97E31] px-5 py-1 rounded-lg text-center w-16 sm:w-24">
+                    <div class="text-xl sm:text-4xl md:text-6xl">4</div>
+                    <div class="text-sm sm:text-xl">Jam</div>
                 </div>
-                <div class="bg-[#D97E31] px-5 py-1 rounded-lg text-center w-24">
-                    <div class="text-4xl md:text-6xl">49</div>
-                    <div class="">Menit</div>
+                <div class="bg-[#D97E31] px-5 py-1 rounded-lg text-center w-16 sm:w-24">
+                    <div class="text-xl sm:text-4xl md:text-6xl">49</div>
+                    <div class="text-sm sm:text-xl">Menit</div>
                 </div>
-                <div class="bg-[#D97E31] px-5 py-1 rounded-lg text-center w-24">
-                    <div class="text-4xl md:text-6xl">12</div>
-                    <div class="">Detik</div>
+                <div class="bg-[#D97E31] px-5 py-1 rounded-lg text-center w-16 sm:w-24">
+                    <div class="text-xl sm:text-4xl md:text-6xl">12</div>
+                    <div class="text-sm sm:text-xl">Detik</div>
                 </div>
             </div>
 
