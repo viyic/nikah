@@ -54,7 +54,7 @@
     <!-- Content -->
     <div class="min-h-screen font-['Ruluko'] max-w-3xl md:mx-auto overflow-x-clip">
         <div class="ml-auto md:mx-auto rounded-b-full w-[90%] md:w-96 aspect-[21/33] border-8 border-t-0 border-[#1C1C1B] p-4 pt-0 relative" style="transform: translateX(calc(1rem + 8px));">
-            <div class="rounded-b-full w-full h-full saturate-0" style="background-image: url('img/pengantin/utama.jpg'); background-size: cover;">
+            <div class="rounded-b-full w-full h-full saturate-0" style="background-image: url('img/pengantin/0/utama.jpg'); background-size: cover;">
             </div>
             <div class="font-['JetBrainsMono'] text-3xl sm:text-5xl md:text-4xl absolute -left-2 top-1/3 -rotate-90 -translate-x-1/2 bg-[#F9EDED] p-3">Save the Date</div>
         </div>
@@ -70,7 +70,7 @@
             <p class="text-center max-w-lg mx-auto">Sesungguhnya hati ini telah terhimpun dalam cinta dan bertemu dalam taat kepada Mu. Eratkanlah ikatannya, kekalkanlah kasih sayangnya, berkahilah jalannya dan penuhilah hati ini dengan cahaya Mu yang tak pernah pudar Rasa haru dan bahagia terukir dihati kami atas limpahan Rahmat Allah SWT dan kami bersimpuh memohon Ridho Nya untuk melangsungkan
                 resepsi pernikahan putra - putri kami</p>
             <div class="bg-[#1C1C1B] rounded-full flex flex-col text-[#FDF7F7] p-6 max-w-sm mx-auto mt-16 relative">
-                <img src="img/pengantin/pria.png" class="overflow-hidden rounded-t-full">
+                <img src="img/pengantin/0/pria.png" class="overflow-hidden rounded-t-full">
                 <p class="font-['Sacramento'] text-4xl text-center mt-8">Rudi Halimawan</p>
                 <p class="text-center mt-4">Putra dari:<br>Bpk Handoko Pratama<br>Ibu Siti Aisyah</p>
 
@@ -82,7 +82,7 @@
 
                 <p class="font-['Sacramento'] text-4xl text-center mt-8">Aura Badriyah</p>
                 <p class="text-center mt-4">Putri dari:<br>Bpk Muhammad Alam<br>Ibu Yunita Aliyani</p>
-                <img src="img/pengantin/wanita.png" class="overflow-hidden rounded-b-full mt-8">
+                <img src="img/pengantin/0/wanita.png" class="overflow-hidden rounded-b-full mt-8">
             </div>
 
             <p class="font-['Sacramento'] text-4xl text-center mt-16">Akad Nikah</p>
@@ -106,12 +106,12 @@
             <p class="font-['Sacramento'] text-4xl text-center mt-16">Gallery Foto</p>
             <div class="flex aspect-[11/12] w-full gap-4 mt-8">
                 <div class="flex flex-col w-full gap-4">
-                    <div class="h-3/4 rounded-lg" style="background-image: url('img/pengantin/galeri-0.jpg'); background-size: cover; background-position: center"></div>
-                    <div class="h-1/4 rounded-lg" style="background-image: url('img/pengantin/galeri-1.jpg'); background-size: cover; background-position: center"></div>
+                    <div class="h-3/4 rounded-lg" style="background-image: url('img/pengantin/0/galeri-0.jpg'); background-size: cover; background-position: center"></div>
+                    <div class="h-1/4 rounded-lg" style="background-image: url('img/pengantin/0/galeri-1.jpg'); background-size: cover; background-position: center"></div>
                 </div>
                 <div class="flex flex-col w-full gap-4">
-                    <div class="h-1/4 rounded-lg" style="background-image: url('img/pengantin/galeri-2.jpg'); background-size: cover; background-position: center"></div>
-                    <div class="h-3/4 rounded-lg" style="background-image: url('img/pengantin/galeri-3.jpg'); background-size: cover; background-position: center"></div>
+                    <div class="h-1/4 rounded-lg" style="background-image: url('img/pengantin/0/galeri-2.jpg'); background-size: cover; background-position: center"></div>
+                    <div class="h-3/4 rounded-lg" style="background-image: url('img/pengantin/0/galeri-3.jpg'); background-size: cover; background-position: center"></div>
                 </div>
             </div>
 

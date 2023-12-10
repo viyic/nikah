@@ -14,5 +14,9 @@ use Illuminate\Support\Facades\Route;
 */
 
 Route::get('/', function () {
-    return view('nikah');
+    return view('nikah-0');
+});
+
+Route::get('/1', function () {
+    return view('nikah-1');
 });
